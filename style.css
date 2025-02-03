@@ -7,28 +7,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: var(--fundo-imagem);
-    background-size: cover;
-    background-position: center;
-    transition: background-image 1s ease-in-out; 
+    transition: background-image 2s;
 }
 
-button {
+input{
+    padding: 8px 12px;
+    font-size: 24px;
+}
+
+button{
     padding: 8px 12px;
     font-size: 24px;
     cursor: pointer;
     background-color: pink;
-    border: none;
+    border: white;
     color: white;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: rgb(255, 105, 180);
 }
